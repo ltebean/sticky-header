@@ -1,5 +1,5 @@
 {
-  "name": "sticky",
+  "name": "browser-sticky",
   "version": "0.0.1",
   "description": "make an element stick to the top of the screen",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "sticky"
   ],
   "author": "ltebean",
-  "license": "BSD",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ltebean/sticky/issues"
   },

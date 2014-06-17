@@ -1,7 +1,7 @@
-###Usage
+###Usage:
 	
 	// commonjs
-	var sticky = require('sticky');
+	var sticky = require('browser-sticky');
 	
 	// or put a script tag to load index.js, then sticky will be global
 	
@@ -10,3 +10,7 @@
 
 	// make '.nav' stick to top 100px
 	sticky('.nav', 100);
+
+###Examples:
+	
+	See test/runner.html
