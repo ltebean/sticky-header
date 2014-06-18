@@ -1,7 +1,7 @@
 ###Usage:
 	
 	// commonjs
-	var sticky = require('browser-sticky');
+	var sticky = require('sticky-header');
 	
 	// or put a script tag to load index.js, then sticky will be global
 	

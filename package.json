@@ -1,7 +1,7 @@
 {
-  "name": "browser-sticky",
-  "version": "0.0.2",
-  "description": "make an element stick to the top of the screen",
+  "name": "sticky-header",
+  "version": "0.1.0",
+  "description": "pure javascript implementation that makes an element stick to the top when scrolling down the page",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -9,15 +9,15 @@
   "scripts": { },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ltebean/sticky.git"
+    "url": "git@github.com:ltebean/sticky-header.git"
   },
   "keywords": [
-    "sticky"
+    "sticky","header","browser"
   ],
   "author": "ltebean",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ltebean/sticky/issues"
+    "url": "https://github.com/ltebean/sticky-header/issues"
   },
-  "homepage": "https://github.com/ltebean/sticky"
+  "homepage": "https://github.com/ltebean/sticky-header"
 }
