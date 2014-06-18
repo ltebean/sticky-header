@@ -1,6 +1,6 @@
 {
   "name": "sticky-header",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "pure javascript implementation that makes an element stick to the top when scrolling down the page",
   "main": "index.js",
   "directories": {

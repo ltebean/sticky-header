@@ -24,10 +24,9 @@
 			position: 'fixed',
 			top: requiredTop + 'px',
 			left: originalRect.left + 'px',
-			'z-index': 9999,
-			width: originalRect.width
+			width: originalRect.width+'px',
+			'z-index': 9999
 		}
-
 		var originalStyles = {}
 		requiredOriginalStyles.forEach(function(key) {
 			originalStyles[key] = el.style[key];
