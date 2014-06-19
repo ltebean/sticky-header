@@ -1,15 +1,17 @@
 ###Usage:
-	
-	// commonjs
-	var sticky = require('sticky-header');
-	
-	// or put a script tag to load index.js, then sticky will be global
-	
-	// make '.nav' stick to the top
-	sticky('.nav');
 
-	// make '.nav' stick to top 100px
-	sticky('.nav', 100);
+```javascript
+// commonjs
+var sticky = require('sticky-header');
+	
+// or directly include the script then 'sticky' will be global
+	
+// make '.nav' stick to the top
+sticky('.nav');
+
+// make '.nav' stick to top 100px
+sticky('.nav', 100);
+```
 
 ###Examples:
 	
