@@ -6,13 +6,14 @@ var sticky = require('sticky-header');
 	
 // or directly include the script then 'sticky' will be global
 	
+var nav = document.getElementById('nav')
 // make '.nav' stick to the top
-sticky('.nav');
+sticky(nav);
 
 // make '.nav' stick to top 100px
-sticky('.nav', 100);
+sticky(nav, 100);
 ```
 
 ###Examples:
 	
-See test/runner.html
+See index.html

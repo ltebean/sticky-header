@@ -1,6 +1,6 @@
 {
   "name": "sticky-header",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "pure javascript implementation that makes an element stick to the top when scrolling down the page",
   "main": "index.js",
   "repository": "git://github.com/ltebean/sticky-header.git",
