@@ -14,6 +14,6 @@ sticky(nav);
 sticky(nav, 100);
 ```
 
-###Examples:
+###Example:
 	
-See index.html
+See http://ltebean.github.io/sticky-header
