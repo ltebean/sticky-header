@@ -14,7 +14,7 @@
       position: 'fixed',
       top: requiredTop + 'px',
       left: originalRect.left + 'px',
-      width: originalRect.width + 'px',
+      // width: originalRect.width + 'px',
       'z-index': 9999
     }
     var originalStyles = {}
