@@ -4,7 +4,7 @@
   else this[name] = definition();
 }('sticky', function() {
 
-  return function sticky(el, top) {
+  return function sticky(el, top, options) {
 
     var requiredOriginalStyles = ['position', 'top', 'left', 'z-index'];
 
@@ -17,6 +17,11 @@
       // width: originalRect.width + 'px',
       'z-index': 9999
     }
+
+    if(options && options.enforceWidth) {
+      styles.width = originalRect.width + 'px';
+    }
+
     var originalStyles = {}
     requiredOriginalStyles.forEach(function(key) {
       originalStyles[key] = el.style[key];
